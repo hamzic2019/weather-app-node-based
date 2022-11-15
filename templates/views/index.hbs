@@ -4,9 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather App - Node Based</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Weather App - NodeJS Based</title>
 </head>
 <body>
-    
+    <div class="search-box">
+        <h1>Forecast</h1>
+
+        <div class="search-box-min">
+            <h2>Node.js Weather Forecast</h2>
+            <hr />
+            <form class="forma" action="/ask" method="GET">
+                <input type="text" name="city" id="city" class="city" placeholder="search for city like: Berlin"> 
+                <input type="submit" style="position: absolute; left: -9999px"/>
+            </form>
+            
+        </div>
+    </div>
+
+    <div class="result">
+       <h1 class="grad"><span class="citycity"></span></h1>
+       <p>Temperature: <span class="temp"></span></p>
+       <p>Description: <span class="desc"></span></p>
+       <p>Humidity: <span class="hum"></span></p>
+       <p>Wind speed: <span class="wind"></span></p>
+
+    </div>
+
+    <script src="./js/app.js"></script>
 </body>
 </html>

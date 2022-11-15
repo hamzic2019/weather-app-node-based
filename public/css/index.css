@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.clear {
+    background-image: url('./../img/night-sky.jpg')!important; 
+}
+.snow {
+    background-image: url('./../img/snowing.jpg')!important; 
+}
+
+.clouds {
+    background-image: url('./../img/day-sky.jpg')!important; 
+}
+
+
+.search-box {
+    height: 98vh;
+    width: 70%;
+    background-image: url('./../img/snowing.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+    padding: 25px;
+    margin: 1vh;
+    text-align: center;
+    float:left;
+}
+
+.search-box h1 {
+    font-size: 45px;
+    text-align: left;
+    color:white;
+}
+
+.search-box-min {
+    margin: 20% 0%;
+
+}
+
+.search-box-min h2 {
+    font-size: 35px;
+    color:white;
+}
+
+.search-box-min .city {
+    height: 35px;
+    font-size: 18px;
+    width: 70%;
+    padding: 2% 2% 2.5% 2%;
+    border-radius: 10px;
+    border:0px;
+    color:black;
+} 
+
+.search-box-min .city:active {
+    border:0px;
+    outline: none;
+}
+
+
+.search-box-min .city:focus {
+    border:0px;
+    outline: none;
+}
+
+
+hr {
+    margin: 3% auto 4% auto;
+    width: 30%;
+    color:white;
+    border-color: white;
+    height: 10px;
+    background-color: white;
+    border:0px;
+    border-radius: 10px;
+}
+
+
+
+.result {
+    width: 27.5%;
+    margin:1vh;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: red;
+    float:left;
+    text-align: center;
+    color:white;
+}
+
+.grad {
+    font-size: 35px;
+    color: aqua;
+    text-align: center;
+    color:white;
+}
